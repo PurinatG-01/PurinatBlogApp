@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Index/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Index from "./components/Index.vue";
+// import Index from "./components/Index.vue";
 export default {
   name: "app",
-  components: { Index }
+  components: {}
 };
 </script>
 
-<style>
+<style scoped>
 #app {
   width: 100vw;
   height: 100vh;
