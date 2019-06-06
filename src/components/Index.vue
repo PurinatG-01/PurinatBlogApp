@@ -1,0 +1,79 @@
+<template>
+  <div id="index-main">
+    <h1>:PURINAT:</h1>
+    <button id="index-button">DISCOVER</button>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Text+Me+One&display=swap");
+
+#index-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  margin: auto;
+  flex-direction: column;
+}
+
+#index-main h1 {
+  text-align: center;
+  margin: 0;
+  align-self: center;
+  letter-spacing: 4vw;
+  font-size: 50px;
+  font-weight: 400;
+  color: #be3331;
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2); */
+}
+
+#index-button {
+  align-self: center;
+  font-weight: 100;
+  letter-spacing: 2vw;
+  font-size: 1em;
+  height: 6%;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  color: #be3331;
+  margin: 30px;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2); */
+  padding: 0;
+}
+
+#index-button:hover {
+  transform: scale(1.1, 1.1);
+  /* animation: blink 8s ease-in-out infinite; */
+}
+
+@keyframes blink {
+  0% {
+    color: #be3331;
+  }
+  20% {
+    color: #63e2a7;
+  }
+  40% {
+    color: #569fe2;
+  }
+  60% {
+    color: #e77e7e;
+  }
+  80% {
+    color: #fcc051;
+  }
+  100% {
+    color: #be3331;
+  }
+}
+</style>
