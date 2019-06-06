@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// import Index from "./components/Index.vue";
 export default {
   name: "app",
   components: {}
@@ -17,5 +16,6 @@ export default {
   width: 100vw;
   height: 100vh;
   background-color: #fafafa;
+  cursor: url("./assets/cursor_red.png"), auto;
 }
 </style>

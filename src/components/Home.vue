@@ -1,7 +1,12 @@
-<template></template>
+<template>
+  <Slideshow/>
+</template>
 
 <script>
-export default {};
+import Slideshow from "./sub-components/Slideshow.vue";
+export default {
+  components: { Slideshow }
+};
 </script>
 
 <style scoped>
