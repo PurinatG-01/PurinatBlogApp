@@ -11,7 +11,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700&display=swap");
+
 #app {
   width: 100vw;
   height: 100vh;

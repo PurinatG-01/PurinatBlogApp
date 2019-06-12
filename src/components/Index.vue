@@ -1,6 +1,6 @@
 <template>
   <div id="index-main">
-    <h1 class="main-test">:PURINAT:</h1>
+    <h1 class="main-test">PURINAT</h1>
     <button id="index-button" @click="$router.push('home')">DISCOVER</button>
   </div>
 </template>

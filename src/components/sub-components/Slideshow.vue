@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello this is slideshow component</h1>
+  <div class="home-slideshow-main"></div>
 </template>
 
 <script>
@@ -7,4 +7,9 @@ export default {};
 </script>
 
 <style scoped>
+.home-slideshow-main {
+  width: 100%;
+  height: 100vh;
+  background-color: #dfdfdf;
+}
 </style>
