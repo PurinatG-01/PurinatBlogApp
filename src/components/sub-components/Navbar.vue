@@ -2,7 +2,7 @@
   <nav class="nav-main">
     <div class="nav-main-element">
       <div class="nav-main-element-1">PURINAT</div>
-      <hr>
+      <div class="hr-nav"/>
       <div class="nav-main-element-2">
         <button
           v-for="n in 3"
@@ -31,11 +31,11 @@ export default {
 .nav-main {
   width: 100vw;
   height: 60vh;
-  background-image: url("../../assets/Header2.png");
+  /* background-image: url("../../assets/Header2.png"); */
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  box-shadow: inset 0px 30px 30px -10px #cbcbcb;
+  /* box-shadow: inset 0px 30px 30px -10px #cbcbcb; */
 }
 
 .nav-main-element {
@@ -48,8 +48,10 @@ export default {
   align-content: center;
 }
 
-.nav-main-element hr {
-  border-top: 2px solid #ba3331;
+.nav-main-element .hr-nav {
+  /* border-top: 2px solid #ba3331; */
+  padding: 0;
+  background: transparent;
   width: 55%;
   align-self: center;
   margin: auto 10px;

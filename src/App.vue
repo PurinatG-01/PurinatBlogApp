@@ -17,7 +17,7 @@ export default {
 #app {
   width: 100vw;
   height: 100vh;
-  background-color: #fafafa;
+  background-color: #454545;
   cursor: url("./assets/cursor_red.png"), auto;
 }
 </style>
