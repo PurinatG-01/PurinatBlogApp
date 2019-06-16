@@ -5,9 +5,8 @@
     </div>
     <div class="main-layer">
       <div class="main-section-1">
-        <div>
-          <h1>My name is Purinat</h1>
-          <p>I study in faculty of Information and Communication Technology, Mahidol University, Thailand.</p>
+        <div class="center-card">
+          <ProfileCard/>
         </div>
       </div>
     </div>
@@ -16,16 +15,17 @@
 
 <script>
 import Navbar from "./sub-components/Navbar.vue";
+import ProfileCard from "./sub-components/ProfileCard.vue";
 
 export default {
-  components: { Navbar }
+  components: { Navbar, ProfileCard }
 };
 </script>
 
 <style scoped>
 .home-main,
 .main-layer {
-  background: #454545;
+  background: #202020;
   width: 100vw;
   height: 100vh;
   font-family: "Overpass Mono", monospace;
@@ -43,7 +43,7 @@ export default {
 .main-section-1 {
   width: 100%;
   height: 100vh;
-  background: #454545;
+  background: #202020;
   -webkit-box-shadow: 0px 10px 14px 0px rgba(69, 69, 69, 0.11);
   -moz-box-shadow: 0px 10px 14px 0px rgba(69, 69, 69, 0.11);
   box-shadow: 0px 10px 14px 0px rgba(69, 69, 69, 0.11);
@@ -51,17 +51,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.main-section-1 div {
-  align-self: center;
-  justify-self: center;
-  width: 35vw;
-  color: #ba3331;
-  animation: bounceInfinite 3s infinite;
-  /* text-shadow: 2px 2px 2px rgba(69, 69, 69, 0.33),
-    0px 0px 10px rgba(69, 69, 69, 0.85), 0px 0px 20px rgba(224, 224, 224, 0.02),
-    0px 0px 20px rgba(224, 224, 224, 0.02); */
+  animation: bounceInfinite 3s ease-in-out infinite;
 }
 
 @keyframes bounceInfinite {
@@ -76,8 +66,9 @@ export default {
   }
 }
 
-.warning {
-  background: red;
-  font-size: 7vw;
+.center-card {
+  width: 72%;
+  margin-top: 50px;
+  height: 60%;
 }
 </style>

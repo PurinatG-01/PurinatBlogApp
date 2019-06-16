@@ -1,7 +1,10 @@
 <template>
   <nav class="nav-main">
     <div class="nav-main-element">
-      <div class="nav-main-element-1">PURINAT</div>
+      <div class="nav-main-element-1">
+        <img src="../../assets/light_logo.png">
+        <div>PURINAT</div>
+      </div>
       <div class="hr-nav"/>
       <div class="nav-main-element-2">
         <button
@@ -59,15 +62,22 @@ export default {
 
 .nav-main-element-1 {
   font-family: "Overpass Mono", monospace;
-  color: #ba3331;
+  color: #f5f5f5;
   letter-spacing: 0.8vw;
-  font-size: 20px;
+  font-size: 18px;
   width: 15%;
   justify-self: center;
   align-self: center;
   text-align: center;
-  font-weight: bold;
+  font-weight: 400;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
+
+.nav-main-element-1 img {
+}
+
 .nav-main-element-2 {
   width: 30%;
   display: flex;
@@ -78,7 +88,7 @@ export default {
 }
 
 .nav-button {
-  color: #ba3331;
+  color: #f5f5f5;
   font-family: "Overpass Mono", monospace;
   font-weight: 100;
   background: transparent;
@@ -87,18 +97,18 @@ export default {
   border: 2px solid transparent;
   border-radius: 8px;
   transition: all 0.2s ease-in-out;
-  font-size: 15px;
+  font-size: 14px;
   outline: none;
   height: 41px;
   width: 122px;
 }
 .nav-button:hover {
-  background: #ba3331;
-  color: #fafafa;
-  border: 2px solid #ba3331;
+  background: #f5f5f5;
+  color: #202020;
+  border: 2px solid #f5f5f5;
 }
 
 .selected-button {
-  border: 2px solid #ba3331;
+  border: 2px solid #f5f5f5;
 }
 </style>
