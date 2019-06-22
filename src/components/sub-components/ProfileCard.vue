@@ -1,6 +1,6 @@
 <template>
   <div class="main-back">
-    <img src="../../assets/profilePic.jpg" alt>
+    <img src="../../assets/profilePic2.jpg" alt>
     <div class="card-center">
       <h1>My name is PURINAT</h1>
       <p>I study in faculty of Information and Communication Technology, Mahidol University, Thailand.</p>
