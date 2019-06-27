@@ -64,7 +64,7 @@ export default {
   font-family: "Overpass Mono", monospace;
   color: #f5f5f5;
   letter-spacing: 0.8vw;
-  font-size: 18px;
+  font-size: 1em;
   width: 15%;
   justify-self: center;
   align-self: center;
@@ -73,9 +73,6 @@ export default {
   display: flex;
   justify-items: center;
   align-items: center;
-}
-
-.nav-main-element-1 img {
 }
 
 .nav-main-element-2 {
@@ -97,7 +94,7 @@ export default {
   border: 2px solid transparent;
   border-radius: 8px;
   transition: all 0.2s ease-in-out;
-  font-size: 14px;
+  font-size: 0.7em;
   outline: none;
   height: 41px;
   width: 122px;

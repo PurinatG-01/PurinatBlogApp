@@ -41,24 +41,3 @@
   transform: scale(1.1, 1.1);
   /* animation: blink 8s ease-in-out infinite; */
 }
-
-@keyframes blink {
-  0% {
-    color: #be3331;
-  }
-  20% {
-    color: #63e2a7;
-  }
-  40% {
-    color: #569fe2;
-  }
-  60% {
-    color: #e77e7e;
-  }
-  80% {
-    color: #fcc051;
-  }
-  100% {
-    color: #be3331;
-  }
-}

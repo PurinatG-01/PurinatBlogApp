@@ -25,11 +25,19 @@ export default {
 <style scoped>
 .home-main,
 .main-layer {
-  background: #202020;
+  /* background: #202020; */
   width: 100vw;
   height: 100vh;
   font-family: "Overpass Mono", monospace;
   font-weight: 100;
+  background: rgb(35, 35, 35);
+  background: linear-gradient(
+    135deg,
+    #202020 0%,
+    rgba(37, 41, 56, 1) 34%,
+    rgba(95, 101, 124, 1) 67%,
+    rgba(226, 226, 226, 1) 100%
+  );
 }
 
 .nav-layer {
@@ -43,10 +51,6 @@ export default {
 .main-section-1 {
   width: 100%;
   height: 100vh;
-  background: #202020;
-  -webkit-box-shadow: 0px 10px 14px 0px rgba(69, 69, 69, 0.11);
-  -moz-box-shadow: 0px 10px 14px 0px rgba(69, 69, 69, 0.11);
-  box-shadow: 0px 10px 14px 0px rgba(69, 69, 69, 0.11);
   display: flex;
   justify-content: center;
   align-items: center;
