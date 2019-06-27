@@ -22,8 +22,8 @@
 export default {
   data: () => {
     return {
-      namePage: ["Home", "Gallery", "Contact"],
-      linkPage: ["/home", "/gallery", "contact"]
+      namePage: ["Home", "Profile", "Gallery"],
+      linkPage: ["/home", "/profile", "/gallery"]
     };
   },
   props: { selected: String }
@@ -43,7 +43,7 @@ export default {
 
 .nav-main-element {
   background-color: transparent;
-  width: 72%;
+  width: 80%;
   height: 20%;
   margin: auto;
   display: flex;
@@ -55,7 +55,7 @@ export default {
   /* border-top: 2px solid #ba3331; */
   padding: 0;
   background: transparent;
-  width: 55%;
+  width: 50%;
   align-self: center;
   margin: auto 10px;
 }
@@ -76,12 +76,13 @@ export default {
 }
 
 .nav-main-element-2 {
-  width: 30%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5px;
   padding: 10px;
+  /* background: #f5f5f5; */
 }
 
 .nav-button {
@@ -97,7 +98,6 @@ export default {
   font-size: 0.7em;
   outline: none;
   height: 41px;
-  width: 122px;
 }
 .nav-button:hover {
   background: #f5f5f5;
