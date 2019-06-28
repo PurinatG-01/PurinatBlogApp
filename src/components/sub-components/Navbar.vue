@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-main">
     <div class="nav-main-element">
-      <div class="nav-main-element-1">
+      <div class="nav-main-element-1" @click="$router.push('/')">
         <img src="../../assets/light_logo.png">
         <div>PURINAT</div>
       </div>

@@ -1,8 +1,10 @@
 import Vue from "vue";
 import App from "./App.vue";
 import VueRouter from "vue-router";
+
 import IndexPage from "./components/Index";
 import HomePage from "./components/Home";
+import ProfilePage from "./components/Profile";
 
 import BootstrapVue from "bootstrap-vue";
 
@@ -15,7 +17,8 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: "/", component: IndexPage },
-  { path: "/home", component: HomePage }
+  { path: "/home", component: HomePage },
+  { path: "/profile", component: ProfilePage }
 ];
 
 const router = new VueRouter({
