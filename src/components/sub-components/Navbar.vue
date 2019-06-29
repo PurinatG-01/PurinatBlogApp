@@ -38,6 +38,7 @@ export default {
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  /* position: fixed; */
   /* box-shadow: inset 0px 30px 30px -10px #cbcbcb; */
 }
 
