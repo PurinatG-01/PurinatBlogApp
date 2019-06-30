@@ -5,6 +5,7 @@ import VueRouter from "vue-router";
 import IndexPage from "./components/Index";
 import HomePage from "./components/Home";
 import ProfilePage from "./components/Profile";
+import GalleryPage from "./components/Gallery";
 
 import BootstrapVue from "bootstrap-vue";
 
@@ -18,7 +19,8 @@ Vue.use(VueRouter);
 const routes = [
   { path: "/", component: IndexPage },
   { path: "/home", component: HomePage },
-  { path: "/profile", component: ProfilePage }
+  { path: "/profile", component: ProfilePage },
+  { path: "/gallery", component: GalleryPage }
 ];
 
 const router = new VueRouter({
