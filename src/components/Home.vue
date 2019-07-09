@@ -9,6 +9,9 @@
           <ProfileCard/>
         </div>
       </div>
+      <div class="main-section-2">
+        <div class="tester" data-aos="fade-up" data-aos-anchor-placement="top-bottom"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -27,7 +30,7 @@ export default {
 .main-layer {
   /* background: #202020; */
   width: 100vw;
-  height: 100vh;
+  height: 4718px;
   font-family: "Overpass Mono", monospace;
   font-weight: 100;
   background: rgb(35, 35, 35);
@@ -74,5 +77,13 @@ export default {
   width: 72%;
   margin-top: 50px;
   height: 60%;
+}
+/* safasf */
+
+.tester {
+  width: 150px;
+  height: 100px;
+  background: #f2f2f2;
+  margin: auto;
 }
 </style>

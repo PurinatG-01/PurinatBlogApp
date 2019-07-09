@@ -43,39 +43,39 @@
               <h2>Technical Skills</h2>
               <ul>
                 <li>
-                  C
+                  <div>C</div>
                   <progress value="50" max="100"></progress>
                 </li>
                 <li>
-                  C#
+                  <div>C#</div>
                   <progress value="25" max="100"></progress>
                 </li>
                 <li>
-                  Python
+                  <div>Python</div>
                   <progress value="75" max="100"></progress>
                 </li>
                 <li>
-                  HTML/CSS
+                  <div>HTML/CSS</div>
                   <progress value="100" max="100"></progress>
                 </li>
                 <li>
-                  Javascript
+                  <div>Javascript</div>
                   <progress value="100" max="100"></progress>
                 </li>
                 <li>
-                  Java
+                  <div>Java</div>
                   <progress value="50" max="100"></progress>
                 </li>
                 <li>
-                  Swift
+                  <div>Swift</div>
                   <progress value="75" max="100"></progress>
                 </li>
                 <li>
-                  PHP
+                  <div>PHP</div>
                   <progress value="25" max="100"></progress>
                 </li>
                 <li>
-                  SQL
+                  <div>SQL</div>
                   <progress value="50" max="100"></progress>
                 </li>
               </ul>
@@ -172,10 +172,20 @@ ul {
 }
 h2 {
   font-size: 1.5em;
+  text-align: left;
 }
 
 h2 + p,
 h2 + ul {
   text-align: left;
+  padding: 0;
+}
+
+li div,
+li progress {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+  margin: 0;
 }
 </style>

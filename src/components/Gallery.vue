@@ -50,4 +50,8 @@ export default {
   background: #ffdd31;
   color: #202020;
 }
+
+img {
+  height: 100vh;
+}
 </style>
