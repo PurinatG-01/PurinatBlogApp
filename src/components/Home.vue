@@ -1,19 +1,21 @@
 <template>
-  <div class="home-main">
-    <div class="nav-layer">
-      <Navbar selected="1"/>
-    </div>
-    <div class="main-layer">
-      <div class="main-section-1">
-        <div class="center-card">
-          <ProfileCard/>
+  <transition name="fade">
+    <div class="home-main">
+      <div class="nav-layer">
+        <Navbar selected="1"/>
+      </div>
+      <div class="main-layer">
+        <div class="main-section-1">
+          <div class="center-card">
+            <ProfileCard/>
+          </div>
+        </div>
+        <div class="main-section-2">
+          <div class="tester" data-aos="fade-up" data-aos-anchor-placement="top-bottom"></div>
         </div>
       </div>
-      <div class="main-section-2">
-        <div class="tester" data-aos="fade-up" data-aos-anchor-placement="top-bottom"></div>
-      </div>
     </div>
-  </div>
+  </transition>
 </template>
 
 <script>
@@ -85,5 +87,13 @@ export default {
   height: 100px;
   background: #f2f2f2;
   margin: auto;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>
