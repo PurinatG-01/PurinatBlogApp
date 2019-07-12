@@ -11,7 +11,12 @@
           </div>
         </div>
         <div class="main-section-2">
-          <div class="tester" data-aos="fade-up" data-aos-anchor-placement="top-bottom"></div>
+          <h1>NEWS</h1>
+          <p>Some cards waiting for adding some stories</p>
+          <div v-for="i in 4" v-bind:key="i" class="news-card">
+            <div class="card"></div>
+            <p>There will be something in here</p>
+          </div>
         </div>
       </div>
     </div>
@@ -43,6 +48,13 @@ export default {
     rgba(95, 101, 124, 1) 67%,
     rgba(226, 226, 226, 1) 100%
   );
+}
+.main-layer {
+  background: transparent;
+}
+
+.home-main {
+  overflow: scroll;
 }
 
 .nav-layer {
@@ -95,5 +107,49 @@ export default {
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+
+.main-section-2 {
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  /* background: #f2f2f2; */
+  color: #f5f5f5;
+  /* background: aquamarine; */
+  width: 80%;
+}
+
+.main-section-2 h1,
+.main-section-2 p {
+  text-align: center;
+}
+
+.news-card {
+  margin-top: 250px;
+  /* background: transparent; */
+  width: 100%;
+  height: 526px;
+  display: flex;
+}
+
+.news-card p {
+  color: #f5f5f5;
+  /* background: red; */
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.card {
+  height: 100%;
+  width: 400px;
+  border: solid #f5f5f5 5px;
+  background: transparent;
+  -webkit-box-shadow: 0px 0px 62px 0px rgba(245, 245, 245, 1),
+    inset 0px 0px 62px 0px rgba(245, 245, 245, 1);
+  -moz-box-shadow: 0px 0px 62px 0px rgba(245, 245, 245, 1),
+    inset 0px 0px 62px 0px rgba(245, 245, 245, 1);
+  box-shadow: 0px 0px 62px 0px rgba(245, 245, 245, 1),
+    inset 0px 0px 62px 0px rgba(245, 245, 245, 1);
 }
 </style>
