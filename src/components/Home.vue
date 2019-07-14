@@ -13,9 +13,15 @@
         <div class="main-section-2">
           <h1>NEWS</h1>
           <p>Some cards waiting for adding some stories</p>
-          <div v-for="i in 4" v-bind:key="i" class="news-card">
-            <div class="card"></div>
-            <p>There will be something in here</p>
+          <div v-for="i in 2" v-bind:key="i">
+            <div class="news-card">
+              <div class="card"></div>
+              <p>There will be something in here</p>
+            </div>
+            <div class="news-card">
+              <p>There will be something in here</p>
+              <div class="card"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -37,7 +43,7 @@ export default {
 .main-layer {
   /* background: #202020; */
   width: 100vw;
-  height: 4718px;
+  height: 3500px;
   font-family: "Overpass Mono", monospace;
   font-weight: 100;
   background: rgb(35, 35, 35);
@@ -116,7 +122,7 @@ export default {
   /* background: #f2f2f2; */
   color: #f5f5f5;
   /* background: aquamarine; */
-  width: 80%;
+  width: 60%;
 }
 
 .main-section-2 h1,
@@ -125,10 +131,10 @@ export default {
 }
 
 .news-card {
-  margin-top: 250px;
+  margin-top: 200px;
   /* background: transparent; */
   width: 100%;
-  height: 526px;
+  height: 400px;
   display: flex;
 }
 
@@ -138,12 +144,14 @@ export default {
   margin: auto;
   justify-self: center;
   align-self: center;
+  padding: 30px;
 }
 
 .card {
   height: 100%;
-  width: 400px;
-  border: solid #f5f5f5 5px;
+  width: 300px;
+  border: solid #f5f5f5 10px;
+  border-radius: 10px;
   background: transparent;
   -webkit-box-shadow: 0px 0px 62px 0px rgba(245, 245, 245, 1),
     inset 0px 0px 62px 0px rgba(245, 245, 245, 1);
