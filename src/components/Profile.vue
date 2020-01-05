@@ -8,7 +8,7 @@
         <h1>PROFILE</h1>
         <img src="../assets/IMG_0988@2x.png" alt>
         <p class="quotes">
-          I am know as a student in MUICT15. That’s mean now I’m sophomore student in this year. But the thing is that I’m not actually the specialist in this path. The truth is that I actually like art.Every kind of art. Music, Drawing, Architecture, Photography, Acting, Speaking etc. I really like all of it. It’s sound different from my current path. That’s why I have a little dream to have a website with my own design That’s mean my website will concurrently change from time to time depend on my dev skill and design skill. If you have any ideas about how it should look. Let me know by contacting me from the contact page.
+          I am know as a student in MUICT15. That’s mean now I’m junior student in this year. But the thing is that I’m not actually the specialist in this path. The truth is that I actually like art.Every kind of art. Music, Drawing, Architecture, Photography, Acting, Speaking etc. I really like all of it. It’s sound different from my current path. That’s why I have a little dream to have a website with my own design That’s mean my website will concurrently change from time to time depend on my dev skill and design skill. If you have any ideas about how it should look. Let me know by contacting me from the contact page.
           Thank you so much.
         </p>
         <div class="detail">

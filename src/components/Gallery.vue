@@ -4,16 +4,17 @@
       <Navbar selected="3"/>
     </div>
     <div class="main-layer">
-      <!-- <h1 v-for="i in 2" :key="i">Current page is unavailable now.</h1> -->
+      <h1>Current page is unavailable now.</h1>
       <div class="container">
-        <div class="me"/>
+        <!-- <div class="me"/>
         <div class="t2"/>
         <div class="me"/>
         <div class="t2"/>
         <div class="me"/>
         <div class="t2"/>
         <div class="me"/>
-        <div class="t2"/>
+        <div class="t2"/> -->
+        
         <!-- <div class="t3"/> -->
       </div>
     </div>
@@ -58,8 +59,7 @@ export default {
 .main-layer h1 {
   text-align: center;
   margin-top: 20vw;
-  background: #ffdd31;
-  color: #202020;
+  color: #ffffff;
 }
 
 img {

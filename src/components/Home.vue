@@ -170,7 +170,7 @@ export default {
 }
 
 .game-card{
-  background: #1cb774;
+  background: #ffffff;
 
   transition: all 0.2s ease-in-out;
 }
