@@ -23,6 +23,10 @@ export default {
   cursor: url("./assets/cursor_white.png"), auto;
 }
 
+*:hover {
+  cursor: url("./assets/cursor_white.png"), auto;
+}
+
 .fade-enter-active {
   transition: opacity 0.4s;
 }

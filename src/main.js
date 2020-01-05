@@ -7,6 +7,9 @@ import HomePage from "./components/Home";
 import ProfilePage from "./components/Profile";
 import GalleryPage from "./components/Gallery";
 
+// News Link
+import Game1 from "./components/utilities/game-1";
+
 import BootstrapVue from "bootstrap-vue";
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -20,7 +23,9 @@ const routes = [
   { path: "/", component: IndexPage },
   { path: "/home", component: HomePage },
   { path: "/profile", component: ProfilePage },
-  { path: "/gallery", component: GalleryPage }
+  { path: "/gallery", component: GalleryPage },
+  { path: "/game-1", component: Game1}
+
 ];
 
 const router = new VueRouter({

@@ -13,8 +13,16 @@
         <div class="main-section-2">
           <h1>NEWS</h1>
           <p>Some cards waiting for adding some stories</p>
-          <div v-for="i in 2" v-bind:key="i">
+          <div>
             <div class="news-card">
+              <div class="card game-card"  v-on:click='$router.push("/game-1")' ></div>
+              <p>Simple Javascript game</p>
+            </div>
+            <div class="news-card">
+              <p>There will be something in here</p>
+              <div class="card"></div>
+            </div>
+             <div class="news-card">
               <div class="card"></div>
               <p>There will be something in here</p>
             </div>
@@ -159,5 +167,15 @@ export default {
     inset 0px 0px 62px 0px rgba(245, 245, 245, 1);
   box-shadow: 0px 0px 62px 0px rgba(245, 245, 245, 1),
     inset 0px 0px 62px 0px rgba(245, 245, 245, 1);
+}
+
+.game-card{
+  background: #1cb774;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.game-card:hover{
+  transform: scale(1.02);
 }
 </style>
