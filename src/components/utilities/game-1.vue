@@ -76,7 +76,7 @@ async function enemyMove(){
 
     while(flag){
         var choice = Math.random()
-        console.log(choice)
+        // console.log(choice)
         if(choice >= 0.5 && choice < 0.75){
             x2+=25
             enemy.style.transform = "translate("+x2+"px,"+y2+"px)"
@@ -91,7 +91,7 @@ async function enemyMove(){
             enemy.style.transform = "translate("+x2+"px,"+y2+"px)"
         }
         await sleep(1000)
-        console.log("Already sleep")
+        // console.log("Already sleep")
     }
 }
 
@@ -110,7 +110,7 @@ function reset(){
     y2 = 0
 
 
-    console.clear()
+    // console.clear()
 }
 
 
