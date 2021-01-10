@@ -15,8 +15,8 @@
           <p>Some cards waiting for adding some stories</p>
           <div>
             <div class="news-card">
-              <div class="card game-card"  v-on:click='$router.push("/game-1")' ></div>
-              <p>Simple Javascript game</p>
+              <div class="card game-card" ></div>
+              <p>Simple Javascript game (Unavailable)</p>
             </div>
             <div class="news-card">
               <p>There will be something in here</p>

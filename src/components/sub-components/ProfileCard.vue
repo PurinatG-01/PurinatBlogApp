@@ -2,7 +2,7 @@
   <div class="main-back">
     <div class="card-center">
       <img src="../../assets/light_logo2@2x.png" alt>
-      <h1>My name is PURINAT</h1>
+      <h1>My name is Purinat</h1>
       <p>I study in faculty of Information and Communication Technology, Mahidol University, Thailand.</p>
     </div>
   </div>

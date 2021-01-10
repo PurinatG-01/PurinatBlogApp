@@ -1,15 +1,23 @@
 <template>
   <div class="profile-main">
     <div class="nav-layer">
-      <Navbar selected="2"/>
+      <Navbar selected="2" />
     </div>
     <div class="main-layer">
       <div class="profile-layer">
         <h1>PROFILE</h1>
-        <img src="../assets/IMG_0988@2x.png" alt>
+        <img src="../assets/IMG_0988@2x.png" alt />
         <p class="quotes">
-          I am know as a student in MUICT15. That’s mean now I’m junior student in this year. But the thing is that I’m not actually the specialist in this path. The truth is that I actually like art.Every kind of art. Music, Drawing, Architecture, Photography, Acting, Speaking etc. I really like all of it. It’s sound different from my current path. That’s why I have a little dream to have a website with my own design That’s mean my website will concurrently change from time to time depend on my dev skill and design skill. If you have any ideas about how it should look. Let me know by contacting me from the contact page.
-          Thank you so much.
+          I am know as a student in MUICT15. That’s mean now I’m senior student
+          in this year. But the thing is that I’m not actually the genius in
+          this path. The truth is that I actually like art.Every kind of art.
+          Music, Drawing, Architecture, Photography, Acting, Speaking etc. I
+          really like all of it. It’s sound different from my current path.
+          That’s why I have a little dream to have a website with my own design
+          That’s mean my website will concurrently change from time to time
+          depend on my dev skill and design skill. If you have any ideas about
+          how it should look. Let me know by contacting me from the contact
+          page. Thank you so much.
         </p>
         <div class="detail">
           <b-row>
@@ -17,26 +25,21 @@
               <h2>Personal Profile</h2>
               <p>
                 Name: Purinat
-                <br>Surname: Sanbundit
-                <br>Nickname: Fame
-                <br>Age: 20
-                <br>Birth Date: 19 August 1998
-                <br>Height: 181
-                <br>Weight: 59-62 kg
-                <br>Nationality: Thai
-                <br>Zodiac: Leo
+                <br />Surname: Sanbundit <br />Nickname: Fame <br />Age: 20
+                <br />Birth Date: 19 August 1998 <br />Height: 181 <br />Weight:
+                59-62 kg <br />Nationality: Thai <br />Zodiac: Leo
               </p>
             </b-col>
             <b-col cols="12" lg="4" class="detail-e">
               <h2>Sided Profile</h2>
               <p>
                 Hobbies: Play Drums, Listen to Music etc.
-                <br>Colors: All
+                <br />Colors: All
               </p>
               <h2>Academic Profiles</h2>
               <p>
                 Joseph Upatham School
-                <br>Faculty of ICT, Mahidol University
+                <br />Faculty of ICT, Mahidol University
               </p>
             </b-col>
             <b-col cols="12" lg="4" class="detail-e">
@@ -91,7 +94,7 @@
 import Navbar from "./sub-components/Navbar.vue";
 
 export default {
-  components: { Navbar }
+  components: { Navbar },
 };
 </script>
 
